@@ -1,0 +1,56 @@
+
+.ass1-1, .ass1-2, .ass1-3 {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 30px;
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    vertical-align: top;
+    outline: 5px black solid; 
+}  
+
+.ass1-1 {
+    border: 5px red solid;
+}
+
+.ass1-2 {
+    border-top: 5px rgb(0, 81, 255) solid;
+    border-bottom: 5px rgb(0, 81, 255)  solid;
+    border-right: 5px green solid;
+    border-left: 5px green solid;
+}
+
+.ass1-3 {
+    border: 5px;
+    border-style: dashed;
+    border-color: red blue green yellow;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+.element {
+    width: 80%;
+    background-color: rgb(245, 245, 245);
+    padding: 30px 0px;
+    margin: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.sp, .sp_2, .sp_3 {
+    padding: 20px 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+    background-color: red;
+ 
+}
+.element-2 {
+    visibility: hidden ;
+} 
+.sp_3 {
+background-color: rgb(0, 120, 218);
+}
