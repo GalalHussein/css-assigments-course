@@ -1,0 +1,77 @@
+p.ass-1  {
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px red, 4px 4px blue, 6px 6px green;
+    letter-spacing: 2px;
+}
+
+div p {
+    font-size: 50px;
+    text-align: center; 
+}
+
+p.one {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.two {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+p.three {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* .ass-3 {
+    width: 400px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(235, 235, 235);
+    margin: 70px auto;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* .ass-3 {
+    width: 400px;
+    font-size: 20px;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: rgb(235, 235, 235);
+    margin: 70px auto;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.ass-3 {
+    width: 400px;
+    font-size: 20px;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: rgb(235, 235, 235);
+    margin: 70px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    background-color: rgb(0, 146, 165);
+    box-sizing: border-box;
+    padding: 60px 160px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 80px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border-bottom: 40px rgb(0, 52, 83) solid;
+    margin-left: 190px;
+}
+
+
