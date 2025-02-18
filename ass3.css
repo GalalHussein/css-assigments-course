@@ -1,0 +1,25 @@
+div div span {
+    color: red;
+} 
+div span {
+    color: blue;
+}
+div p {
+    color: green;
+}
+
+div.title {
+    color: rgb(174, 0, 243);
+}
+
+p:first-child, 
+p:nth-child(2), 
+div.ass-2 p:last-child {
+     background-color: rgb(156, 23, 0);
+     padding: 15px;
+     width: fit-content;
+     max-width: 400px;
+     color: white;
+     font-size: 20px;
+     max-height: 30px;
+}
