@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 15px 0px;
+  
+} 
+.one, .three {
+    background-color: #eee;
+}
+
+.two {
+    background-color: #f50000;
+    padding: 20px 0px;
+}
+
+.ass_2 {
+    width: 350px;
+    margin-top: 50px;
+    padding: 20px 0px;
+    background-color: #eee;
+    position: relative;
+}
+.ass_2::before {
+    content: "1"; 
+    background-color: #f50000;
+    position: absolute;
+    padding: 10px 5px; color: white;
+    left: -10px; top: 20%;
+}
+
+p {
+    padding: 15px; 
+    background-color: #eee;
+    margin: 10px auto; 
+    width: 40vw; 
+    border-left: 5px rgb(179, 51, 0) solid;
+    position: relative;
+} 
+
+p::after {
+    content: ""; 
+    border: 10px rgb(179, 51, 0) solid;
+    position: absolute;
+    left: -25px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent; 
+}
+p::before {
+    content: "Osama";
+    position: absolute;
+    left: -105px;
+    top: 5px;
+    padding: 10px;
+    background-color: rgb(211, 211, 211);
+}
+
+
