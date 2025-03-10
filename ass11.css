@@ -1,0 +1,98 @@
+.ass-1 {
+    width: 100px; height: 100px; background-color: #eee;
+    margin: 50px auto; border-radius: 50%;
+    border-left: 5px solid rgb(25, 144, 255);
+    border-right: 5px solid var(--mainColor);
+    color: var(--mainColor); display: flex;
+    justify-content: center; 
+    align-items: center; font-weight: Bold;
+} 
+
+.parent {
+    width: 600px; height: 300px;
+    margin: 0px auto; 
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    align-content: space-between;
+  
+} 
+.parent div {
+    display: flex;
+    align-items: center; justify-content: center;
+    height: 50px;
+    text-align: center;
+    background-color: var(--mainColor);
+    color: white; 
+    width: calc(97% / 3);
+} 
+
+
+.parent2 {
+    width: 600px; height: 300px; margin: 50px auto;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.parent2 div {
+    background-color: rgb(4, 153, 252); color: white;
+    width: calc(98% / 3);
+    display: flex; justify-content: center; align-items: center;
+}
+.one, .three {
+    height: 50px;
+}
+.two , .five, .six{
+    height: 50%;
+} 
+
+.one {
+    order: 6;
+    margin-top: calc(25% - 50px);
+}
+.two {
+    order: 5;
+}
+.three {
+    order: 2;
+}
+.four {
+    order: 3;
+}
+.five {
+    order: 4;
+}
+.six {
+    order: 1;
+}
+
+.parent3 {
+    width: 600px; 
+    background-color: #eee;
+    margin: 50px auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.parent3 div {
+
+    background-color: green; 
+    flex-basis: calc(100% / 3);
+    color: white; font: 600 20px Arial;
+    display: flex; justify-content: center; align-items: center;
+   
+}
+.parent3 > div:first-child, .parent3 > div:last-child {
+    width: calc(50% / 7);
+    margin-left: auto;
+} 
+.parent3 > div:nth-child(2) {
+    width: calc(50%);
+}
